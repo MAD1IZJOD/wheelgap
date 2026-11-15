@@ -48,7 +48,7 @@ On `pyodide` targets, `check_package` and `check_lockfile` take an optional
 `pyodide_lock` (a path or https URL of a `pyodide-lock.json`, as
 `--pyodide-lock` does), so packages Pyodide ships itself show as `bundled`.
 
-After 0.9.0, `check_lockfile` also takes an optional `environment` string for
+After 0.10.0, `check_lockfile` also takes an optional `environment` string for
 `pixi.lock` inputs, like the CLI's `--environment`. For example, pass
 `"environment": "test"` to check the `test` environment instead of `default`.
 An unknown environment is a tool error listing the lockfile's environment names.
