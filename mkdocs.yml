@@ -71,6 +71,9 @@ nav:
       - CI: ci.md
       - Comparing two lockfiles: diff.md
       - Recipes: recipes.md
+  - Case studies:
+      - Overview: case-studies/index.md
+      - mitmproxy: case-studies/mitmproxy.md
   - Integrations:
       - Python API: python-api.md
       - MCP server: mcp.md
